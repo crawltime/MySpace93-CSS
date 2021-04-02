@@ -8,13 +8,39 @@
 *
 */
 
+/* Chromium */
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+
+    .url.box > div > b {
+        padding-right: 282px;
+    }
+
+    div.blogs > div > b {
+        padding-right: 365px;
+    }
+
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+
+    .url.box > div > b {
+        padding-right: 285px;
+    }
+
+    div.blogs > div > b {
+        padding-right: 372.408px;
+    }
+
+}
+
+
 /* Blog shit */
 
 div.blogs > div > b {
     color: white;
     background-color: #3B866D;
     padding-left: 4px;
-    padding-right: 365px;
     padding-bottom: 1px;
     text-decoration: underline;
 }
@@ -71,7 +97,6 @@ div#online {
     background-color: #3B866D;
     color: white;
     padding-left: 6px;
-    padding-right: 282px;
     padding-bottom: 2px;
 }
 

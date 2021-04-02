@@ -12,7 +12,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
 
     .url.box > div > b {
-        padding-right: 282px;
+        padding-right: 282.656px;
     }
 
     div.blogs > div > b {

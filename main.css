@@ -10,6 +10,20 @@
 
 /* Blog shit */
 
+div.blogs > div > b {
+    color: white;
+    background-color: #3B866D;
+    padding-left: 4px;
+    padding-right: 365px;
+    padding-bottom: 1px;
+    text-decoration: underline;
+}
+
+div.blogs > div {
+    padding-top: 10px;
+    color: #C7C7C7;
+}
+
 div.topLeft.blogCard {
     color: #C7C7C7;
 }
@@ -26,6 +40,13 @@ div.blogCorpus > p {
 /***  End of Blog shit  ***/
 /**************************/
 
+div.box.blurbs {
+   background-color: #2f2f2f;
+   border: 1px solid black;
+   padding-left: 4px;
+   padding-right: 4px;
+}
+
 div.box.comments > div {
     color: #C7C7C7;
 }
@@ -39,6 +60,7 @@ div.box.blurbs > h4 {
     color: white;
     text-decoration: underline;
     padding-left: 4px;
+    padding-bottom: 1px;
 }
 
 div#online {
@@ -132,6 +154,7 @@ a:hover {
 }
 
 div.rightHead {
+    font-size: 0px;
     background-color: #3B866D;
     color: white;
 }

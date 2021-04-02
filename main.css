@@ -1,0 +1,239 @@
+ 
+
+/*
+*
+* All of this was written by me, viktor. But my main inspiration is this man's page!!1
+*
+* https://myspace.windows93.net/?id=25450
+*
+*/
+
+/* Blog shit */
+
+div.topLeft.blogCard {
+    color: #C7C7C7;
+}
+
+div.blogCorpus > p {
+    color: white;
+}
+
+.blog {
+    background-color: #2f2f2f !important;
+    border: 2px solid black;
+}
+
+/***  End of Blog shit  ***/
+/**************************/
+
+div.box.comments > div {
+    color: #C7C7C7;
+}
+
+div#footer.box > div > p {
+    color: #C7C7C7;
+}
+
+div.box.blurbs > h4 {
+    background-color: #3B866D;
+    color: white;
+    text-decoration: underline;
+    padding-left: 4px;
+}
+
+div#online {
+    content: url(https://i.imgur.com/q0kafNR.gif)
+}
+
+.url.box > div > b {
+    background-color: #3B866D;
+    color: white;
+    padding-left: 6px;
+    padding-right: 282px;
+    padding-bottom: 2px;
+}
+
+img {
+    image-rendering: auto;
+}
+
+#add, #sMsg, #report, #block {
+    padding-right: 420px;
+}
+
+#add {
+    background-image: url(https://i.imgur.com/sANviq7.png);
+}
+
+#report {
+    background-image: url(https://i.imgur.com/ord1pEH.png);
+}
+
+#sMsg {
+    background-image: url(https://i.imgur.com/x6soEtU.png);
+}
+
+#block {
+    background-image: url(https://i.imgur.com/sQqACw4.png);
+}
+
+.url.box > div > a {
+    color: aquamarine !important;
+    padding-left: 6px;
+    text-decoration: underline !important;
+}
+
+.url.box > div > a:hover {
+    color: #57AF92 !important;
+}
+
+/* Ignore this */
+.url.box > div {
+    padding-bottom: 4px;
+}
+/***************/
+
+html body {
+    background-image: url(https://i.imgur.com/FP4OmCt.png);
+    background-color: rgb(33, 33 ,33);
+    font-family: Consolas, Monospace, Arial;
+}
+
+div#about {
+    color: #C7C7C7;
+}
+
+div#who {
+    color: #C7C7C7;
+}
+
+td.shortRight {
+    color: #C7C7C7;
+}
+
+span.fwiendCount {
+    color: #C7C7C7;
+}
+
+div#hSub {
+    background-color: #2E2E2E;
+}
+
+div#header {
+    background-color: #151515;
+}
+
+a {
+    color: aquamarine;
+}
+
+a:hover {
+    color: #57AF92;
+}
+
+div.rightHead {
+    background-color: #3B866D;
+    color: white;
+}
+
+div.fwiendCounter {
+    color: #494949;
+}
+
+h4 {
+    color: black;
+}
+
+textarea#commentInput:focus {
+    border: 1px solid #3B866D;
+}
+
+textarea#commentInput {
+    background-color: black;
+    color: white;
+    border: 1px solid #1F5543;
+}
+
+div.boxHead {
+    background-color: #3B866D;
+}
+
+div.boxInfo.box {
+    background-color: #2f2f2f;
+}
+
+.extended.box {
+    color: aquamarine;
+    background-color: #2f2f2f;
+}
+
+.url {
+    border: solid 1px black;
+    color: #C7C7C7;
+    background-color: #2f2f2f;
+
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.tableLeft > a > div{
+    max-width: none;
+}
+
+.tableLeft {
+    padding: 0;
+    background-color: #489d6d9e;
+}
+
+.tableRight {
+    background-color: #245338;
+}
+
+b.date {
+    color: #C7C7C7;
+}
+
+#viewFriends {
+    color: #494949;
+}
+
+.boxButton {
+    color: aquamarine;
+}
+
+.boxButton:hover {
+    color: #57AF92;
+}
+
+#name {
+    color: #C7C7C7;
+}
+
+#hSub > a:hover {
+    color: #57AF92;
+}
+
+#hUp > a:hover {
+    color: #57AF92;
+}
+
+.extended.box > h3 {
+    font-size: 0px;
+}
+
+.extended.box > h3:after {
+    content: "In yo' network";
+    font-size: 17px;
+}
+
+.extended.box {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#about > p {
+    font-weight: bold;
+}
+

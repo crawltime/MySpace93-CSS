@@ -70,6 +70,19 @@ div.blogCorpus > p {
 /***  End of Blog shit  ***/
 /**************************/
 
+.player {
+    background-color: #2f2f2f;
+    border: 1px solid black;
+}
+
+.player > div > a > img {
+    height: 0px !important;
+}
+
+.songName {
+    font-size: 0px;
+}
+
 .avatar {
     border: 1px solid black;
 }
@@ -289,7 +302,7 @@ b.date {
 }
 
 .extended.box > h3:after {
-    content: "In yo' network";
+    content: "I won't ever leave my room, but I'm getting good at writing letters";
     font-size: 17px;
 }
 

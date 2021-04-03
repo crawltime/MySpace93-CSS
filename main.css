@@ -142,6 +142,11 @@ img {
     color: #57AF92 !important;
 }
 
+.short {
+    background-color: #2f2f2f;
+    border: 1px solid black;
+}
+
 /* Ignore this */
 .url.box > div {
     padding-bottom: 4px;
@@ -265,7 +270,10 @@ b.date {
 }
 
 #name {
-    color: #C7C7C7;
+    background-color: #3B866D;
+    border: 1px solid black;
+    padding-left: 5px;
+    color: white;
 }
 
 #hSub > a:hover {

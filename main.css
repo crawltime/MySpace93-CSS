@@ -16,7 +16,7 @@
     }
 
     div.blogs > div > b {
-        padding-right: 365.9843px;
+        padding-right: 357.73px;
     }
 
 }
@@ -29,7 +29,7 @@
     }
 
     div.blogs > div > b {
-        padding-right: 372.408px;
+        padding-right: 364.4px;
     }
 
 }
@@ -43,6 +43,10 @@ div.blogs > div > b {
     padding-left: 4px;
     padding-bottom: 1px;
     text-decoration: underline;
+}
+
+div.blogs > div > b:after {
+    content: ":";
 }
 
 div.blogs > div {

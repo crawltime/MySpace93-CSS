@@ -11,6 +11,11 @@
 
 /* Blog shit */
 
+/* Comment colour. */
+.tableRight > div > p {
+    color: black;
+}
+
 div.blogs > div > b {
     color: white;
     background-color: #3B866D;

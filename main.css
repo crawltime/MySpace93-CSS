@@ -95,7 +95,7 @@ div.box.blurbs {
 }
 
 div.box.comments > div {
-    color: #C7C7C7;
+    color: white;
 }
 
 div#footer.box > div > p {
@@ -302,7 +302,7 @@ b.date {
 }
 
 .extended.box > h3:after {
-    content: "I won't ever leave my room, but I'm getting good at writing letters";
+    content: "I won't ever leave my room, but I am getting good at writing letters";
     font-size: 17px;
 }
 

@@ -108,7 +108,11 @@ div#online {
 
 #top {
     background-color: #2f2f2f;
-    border: 1px solid black;
+    margin-top: -20px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-top: 3px;
 }
 
 img {
@@ -187,6 +191,7 @@ span.fwiendCount {
 
 div#hSub {
     background-color: #2E2E2E;
+    border-bottom: 1px solid black;
 }
 
 div#header {
@@ -212,6 +217,7 @@ div.fwiendCounter {
     padding-left: 4px;
     background-color: #3B866D;
     border: 1px solid black;
+    padding-bottom: 1px;
 }
 
 h4 {
@@ -288,7 +294,7 @@ b.date {
     border-top: 1px solid black;
     padding-left: 5px;
     font-size: 18px;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
     color: white;
 }
 

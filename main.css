@@ -62,6 +62,11 @@ div.blogCorpus > p {
     font-size: 0px;
 }
 
+#imgPreview > img {
+    background-color: #2f2f2f;
+    border: 4px solid black;
+}
+
 .avatar {
     background-color: #404040;
     border: 1px solid black;
@@ -102,8 +107,14 @@ div#online {
 }
 
 #top {
+    text-align: center;
     background-color: #2f2f2f;
-    border: 1px solid black;
+    margin-top: -20px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-top: 3px;
+    padding-bottom: 15px;
 }
 
 img {
@@ -180,8 +191,16 @@ span.fwiendCount {
     color: #C7C7C7;
 }
 
+.fwiendFace > img {
+    background-color: #404040;
+    border: 1px solid black;
+    width: 125px;
+    height: 140px;
+}
+
 div#hSub {
     background-color: #2E2E2E;
+    border-bottom: 1px solid black;
 }
 
 div#header {
@@ -206,7 +225,10 @@ div.fwiendCounter {
     color: white;
     padding-left: 4px;
     background-color: #3B866D;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-bottom: 1px;
 }
 
 h4 {
@@ -283,7 +305,7 @@ b.date {
     border-top: 1px solid black;
     padding-left: 5px;
     font-size: 18px;
-    padding-bottom: 2px;
+    padding-bottom: 1px;
     color: white;
 }
 
@@ -300,7 +322,7 @@ b.date {
 }
 
 .extended.box > h3:after {
-    content: "I won't ever leave my room, but I am getting good at writing letters";
+    content: "I won't ever leave my room, but I'm getting good at writing letters";
     font-size: 17px;
 }
 

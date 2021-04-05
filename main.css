@@ -8,34 +8,13 @@
 *
 */
 
-/* Chromium (ewwwwwwww) */
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
-
-    .url.box > div > b {
-        padding-right: 282.656px;
-    }
-
-    div.blogs > div > b {
-        padding-right: 357.73px;
-    }
-
-}
-
-/* Firefox */
-@-moz-document url-prefix() {
-
-    .url.box > div > b {
-        padding-right: 285px;
-    }
-
-    div.blogs > div > b {
-        padding-right: 364.4px;
-    }
-
-}
-
 
 /* Blog shit */
+
+/* Comment colour. */
+.tableRight > div > p {
+    color: black;
+}
 
 div.blogs > div > b {
     color: white;
@@ -70,7 +49,21 @@ div.blogCorpus > p {
 /***  End of Blog shit  ***/
 /**************************/
 
+.player {
+    background-color: #2f2f2f;
+    border: 1px solid black;
+}
+
+.player > div > a > img {
+    height: 0px !important;
+}
+
+.songName {
+    font-size: 0px;
+}
+
 .avatar {
+    background-color: #404040;
     border: 1px solid black;
 }
 
@@ -82,7 +75,7 @@ div.box.blurbs {
 }
 
 div.box.comments > div {
-    color: #C7C7C7;
+    color: white;
 }
 
 div#footer.box > div > p {
@@ -106,6 +99,11 @@ div#online {
     color: white;
     padding-left: 6px;
     padding-bottom: 2px;
+}
+
+#top {
+    background-color: #2f2f2f;
+    border: 1px solid black;
 }
 
 img {
@@ -142,6 +140,13 @@ img {
     color: #57AF92 !important;
 }
 
+.short {
+    background-color: #2f2f2f;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
 /* Ignore this */
 .url.box > div {
     padding-bottom: 4px;
@@ -156,6 +161,10 @@ html body {
 
 div#about > p {
     color: #C7C7C7;
+    padding-top: 4px;
+}
+
+div#who {
     padding-top: 4px;
 }
 
@@ -194,7 +203,10 @@ div.rightHead {
 }
 
 div.fwiendCounter {
-    color: #494949;
+    color: white;
+    padding-left: 4px;
+    background-color: #3B866D;
+    border: 1px solid black;
 }
 
 h4 {
@@ -265,7 +277,14 @@ b.date {
 }
 
 #name {
-    color: #C7C7C7;
+    background-color: #3B866D;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding-left: 5px;
+    font-size: 18px;
+    padding-bottom: 2px;
+    color: white;
 }
 
 #hSub > a:hover {
@@ -281,7 +300,7 @@ b.date {
 }
 
 .extended.box > h3:after {
-    content: "In yo' network";
+    content: "I won't ever leave my room, but I am getting good at writing letters";
     font-size: 17px;
 }
 
@@ -289,5 +308,37 @@ b.date {
     padding-top: 18px;
     padding-bottom: 18px;
 }
+
+
+/* Chromium (ewwwwwwww) */
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+
+    img {
+        image-rendering: -webkit-optimize-contrast;
+    }
+
+    .url.box > div > b {
+        padding-right: 282.656px;
+    }
+
+    div.blogs > div > b {
+        padding-right: 357.73px;
+    }
+
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+
+    .url.box > div > b {
+        padding-right: 285px;
+    }
+
+    div.blogs > div > b {
+        padding-right: 364.4px;
+    }
+
+}
+
 
 

@@ -35,6 +35,7 @@ div.blogs > div {
 
 div.topLeft.blogCard {
     color: #C7C7C7;
+    margin-top: 10px;
 }
 
 div.blogCorpus > p {
@@ -48,6 +49,10 @@ div.blogCorpus > p {
 
 /***  End of Blog shit  ***/
 /**************************/
+
+audio {
+    filter: none;
+}
 
 .player {
     background-color: #2f2f2f;
@@ -198,6 +203,10 @@ span.fwiendCount {
     height: 130px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.fwiendFace > b {
+    white-space: nowrap;
 }
 
 div#hSub {

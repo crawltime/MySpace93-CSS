@@ -216,7 +216,9 @@ div.fwiendCounter {
     color: white;
     padding-left: 4px;
     background-color: #3B866D;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
     padding-bottom: 1px;
 }
 

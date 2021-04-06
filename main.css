@@ -8,7 +8,30 @@
 *
 */
 
-/* Thanks @randomtrash ^^ */
+/* Used for avatar popup. */
+@keyframes popup {
+	from {
+		width: 0px;
+		height: 0px;
+	}
+	to {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@keyframes Prev_popup {
+	from {
+		max-height: 0px;
+		max-weight: 0px;
+	}
+	to {
+		max-height: calc( 100% - 10px );
+		max-weight: 100%;
+	}
+}
+
+/* Thanks to @randomtrash :D */
 @media (orientation: landscape) {
 
     .topLeft {
@@ -77,11 +100,13 @@ audio {
 }
 
 #imgPreview > img {
+    animation: Prev_popup 2s;
     background-color: #2f2f2f;
     border: 4px solid black;
 }
 
 .avatar {
+    animation: popup 2s;
     background-color: #404040;
     border: 1px solid black;
 }
@@ -382,4 +407,5 @@ b.date {
     }
 
 }
+
 

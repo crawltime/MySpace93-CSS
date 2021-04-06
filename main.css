@@ -351,6 +351,7 @@ div.boxInfo.box {
 }
 
 .tableLeft {
+    width: 1%;
     padding: 0;
     background-color: #489d6d9e;
 }
@@ -433,6 +434,10 @@ b.date {
 
 /* Firefox */
 @-moz-document url-prefix() {
+
+    .tableLeft {
+        width: 1% !important;
+    }
 
     .url.box > div > b {
         padding-right: 285px;

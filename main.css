@@ -8,6 +8,15 @@
 *
 */
 
+/* Thanks @randomtrash ^^ */
+@media (orientation: landscape) {
+
+    .topLeft {
+        top: 53px;
+        position: sticky;
+    }
+
+}
 
 /* Blog shit */
 
@@ -49,11 +58,6 @@ div.blogCorpus > p {
 
 /***  End of Blog shit  ***/
 /**************************/
-
-.topLeft {
-    top: 53px;
-    position: sticky;
-}
 
 audio {
     filter: none;
@@ -378,5 +382,4 @@ b.date {
     }
 
 }
-
 

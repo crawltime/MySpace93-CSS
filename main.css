@@ -196,6 +196,22 @@ img {
     background-image: url(https://i.imgur.com/sQqACw4.png);
 }
 
+#add:hover {
+    background-image: url(https://i.imgur.com/sdkZK0y.png);
+}
+
+#report:hover {
+    background-image: url(https://i.imgur.com/UL6Tsq0.png);
+}
+
+#sMsg:hover {
+    background-image: url(https://i.imgur.com/E46tyPM.png);
+}
+
+#block:hover {
+    background-image: url(https://i.imgur.com/u68lp6v.png);
+}
+
 .url.box > div > a {
     color: aquamarine !important;
     padding-left: 6px;

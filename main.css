@@ -413,6 +413,10 @@ b.date {
 /* Chromium (ewwwwwwww) */
 @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
 
+    .tableLeft {
+        width: 20% !important;
+    }
+
     img {
         image-rendering: -webkit-optimize-contrast;
     }

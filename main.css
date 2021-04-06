@@ -50,6 +50,11 @@ div.blogCorpus > p {
 /***  End of Blog shit  ***/
 /**************************/
 
+.topLeft {
+    top: 53px;
+    position: sticky;
+}
+
 audio {
     filter: none;
 }
@@ -280,7 +285,7 @@ div.boxInfo.box {
     padding-left: 0px;
 }
 
-.tableLeft > a > div{
+.tableLeft > a > div {
     max-width: none;
 }
 
@@ -373,6 +378,5 @@ b.date {
     }
 
 }
-
 
 

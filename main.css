@@ -302,6 +302,7 @@ span.fwiendCount {
     height: 130px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5%;
 }
 
 .fwiendFace > b {

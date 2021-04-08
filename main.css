@@ -61,6 +61,8 @@
 }
 
 div.blogs > div > b {
+    padding-right: 6969%;
+    white-space: nowrap;
     color: white;
     background-color: #3B866D;
     padding-left: 4px;
@@ -183,6 +185,8 @@ div#online {
 }
 
 .url.box > div > b {
+    padding-right: 100%;
+    white-space: nowrap;
     background-color: #3B866D;
     color: white;
     padding-left: 6px;
@@ -291,6 +295,7 @@ span.fwiendCount {
 }
 
 .fwiendFace > img {
+    object-fit: cover;
     background-color: #404040;
     border: 1px solid black;
     width: 120px;
@@ -450,10 +455,6 @@ b.date {
         image-rendering: -webkit-optimize-contrast;
     }
 
-    .url.box > div > b {
-        padding-right: 282.656px;
-    }
-
     div.blogs > div > b {
         padding-right: 357.73px;
     }
@@ -465,10 +466,6 @@ b.date {
 
     .tableLeft {
         width: 1% !important;
-    }
-
-    .url.box > div > b {
-        padding-right: 285px;
     }
 
     div.blogs > div > b {

@@ -1,0 +1,367 @@
+/* Variables */
+:root {
+    --text-color: #C7C7C7;
+    --link: #7fffd4;
+    --link-hover: #175F47;
+    --background-image: url("https://i.imgur.com/8wFDmsf.png");
+    --background-color: #1b1b1b;
+    --border-default: 1px solid black;
+    --border-background: #2b2b2b;
+    --top-color: #3B866D;
+    --link-transition: color .25s ease;
+    --other-text-color: #33cc9a;
+    --header-color: #0f0f0f;
+    --small-header-color: #222;
+    --shortRight-color: #247524;
+    --image-background: #404040;
+}
+
+/* Special functions */
+@media (orientation: landscape) {
+
+    .topLeft {
+        top: 53px;
+        position: sticky;
+    }
+
+}
+
+@keyframes preview_popup {
+
+    from {
+        max-height: 0px;
+        max-width: 0px;
+    }
+
+    to {
+        max-height: calc(100% - 100px );
+        max-width: 100%;
+    }
+
+}
+
+/* Root */
+* {
+    font-family: Consolas, Monospace, Arial;
+}
+
+/* Global elements */
+a {
+    transition: var(--link-transition) !important;
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--link-hover) !important;
+}
+
+img {
+    transition: all .35s ease;
+    image-rendering: auto;
+}
+
+img:hover {
+    filter: brightness(65%)
+}
+
+body {
+    background-image: var(--background-image);
+    background-color: var(--background-color);
+}
+
+audio {
+    filter: none;
+}
+
+/* Classes */
+.short {
+    margin-top: -18px;
+    border-bottom: var(--border-default);
+    border-right: var(--border-default);
+    border-left: var(--border-default);
+    background-color: var(--border-background);
+    color: var(--text-color);
+}
+
+.blurbs {
+    color: var(--text-color);
+    background-color: var(--border-background);
+    border: var(--border-default);
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+}
+
+.rightHead {
+    font-size: 0px;
+}
+
+.boxHead {
+    background-color: var(--top-color);
+    color: white;
+}
+
+.boxInfo {
+    background-color: var(--border-background);
+    border: var(--border-default);
+}
+
+.boxButton {
+    padding-right: 6969px;
+    padding-left: 50px;
+    transition: var(--link-transition);
+    color: var(--link) !important;
+}
+
+.boxButton:hover {
+    transition: var(--link-transition);
+    color: var(--link-hover) !important;
+}
+
+.url.box {
+    background-color: var(--border-background);
+    border: var(--border-default);
+    padding: 0;
+}
+
+.url b {
+    color: white;
+    background-color: var(--top-color);
+    padding-left: 6px;
+    padding-bottom: 2px;
+    padding-right: 100%;
+    white-space: nowrap;
+}
+
+.url a {
+    color: var(--link) !important;
+    margin-left: 4px;
+    text-decoration: underline !important;
+    transition: var(--link-transition);
+}
+
+.url a:hover {
+    color: var(--link-hover) !important;
+}
+
+.url.box > div {
+    padding-bottom: 6px;
+}
+
+.fwiendCounter {
+    color: white;
+    padding-left: 4px;
+    background-color: var(--top-color);
+    margin-bottom: 0px;
+    border-top: var(--border-default);
+    border-left: var(--border-default);
+    border-right: var(--border-default);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.fwiendCount {
+    color: #00684b;
+}
+
+.extended.box > h3 {
+    font-size: 0px;
+}
+
+.extended.box > h3:after {
+    content: "I won't ever leave my room, but I'm getting good at writing letters";
+    color: var(--link);
+    font-size: 17px;
+}
+
+.extended.box {
+    background-color: var(--border-background);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.blurbs h4 {
+    color: white;
+    background-color: var(--top-color);
+    padding-left: 4px;
+    margin-bottom: 4px;
+}
+
+.player {
+    background-color: var(--border-background);
+    border: var(--border-default);
+}
+
+.songTitle {
+    color: var(--text-color);
+}
+
+.songName b {
+    color: var(--other-text-color);
+}
+
+.tableLeft {
+    background-color: #489d6d9e;
+    padding: 0;
+}
+
+.tableLeft > a > div {
+    max-width: none;
+}
+
+.tableRight {
+    background-color: #245338;
+}
+
+.blurbs b {
+    color: white;
+    white-space: nowrap;
+    padding-right: 100%;
+    background-color: var(--top-color);
+    padding-left: 4px;
+}
+
+.blog {
+    color: var(--text-color);
+    border: 3px solid black;
+    background-color: var(--border-background);
+}
+
+.blogCard {
+    color: var(--text-color);
+}
+
+.fwiendFace {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.fwiendFace img {
+    background-color: var(--image-background);
+    border: var(--border-default);
+    border-radius: 5%;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+    object-fit: cover;
+}
+
+.avatar {
+    border: var(--border-default);
+    background-color: var(--image-background);
+}
+
+/* IDs */
+#name {
+    padding-top: 1px;
+    color: white;
+    border-top: var(--border-default);
+    border-right: var(--border-default);
+    border-left: var(--border-default);
+    background-color: var(--top-color);
+    padding-left: 5px;
+    margin-top: 15px;
+}
+
+#credo {
+    color: var(--shortRight-color);
+}
+
+#viewFriends {
+    color: var(--text-color);
+}
+
+#commentInput {
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    border-color: var(--link);
+    transition: border-color .25s ease;
+}
+
+#commentInput:hover {
+    border-color: #57AF92;
+}
+
+#commentInput:focus {
+    border-color: var(--link-hover);
+}
+
+#header {
+    background-color: var(--header-color) !important;
+}
+
+#header span {
+    transition: var(--link-transition);
+}
+
+#header span:hover {
+    color: var(--link-hover);
+}
+
+#hSub {
+    background-color: var(--small-header-color) !important;
+    border-bottom: var(--border-default) !important;
+}
+
+#add {
+    background-image: url("https://i.imgur.com/sANviq7.png");
+}
+
+#report {
+    background-image: url("https://i.imgur.com/ord1pEH.png");
+}
+
+#sMsg {
+    background-image: url("https://i.imgur.com/x6soEtU.png");
+}
+
+#block {
+    transition: all .35s ease;
+    background-image: url("https://i.imgur.com/sQqACw4.png");
+}
+
+#online {
+    content: url("https://i.imgur.com/q0kafNR.gif");
+}
+
+#add:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+#report:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+#sMsg:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+#block:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+#lastLogin {
+    color: var(--shortRight-color);
+}
+
+#top {
+    border-left: var(--border-default);
+    border-right: var(--border-default);
+    border-bottom: var(--border-default);
+    background-color: var(--border-background);
+    padding-top: 3px;
+    padding-bottom: 14px;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+}
+
+#imgPreview img {
+    max-height: calc(100% - 100px );
+    max-width: 100%;
+    animation: preview_popup .7s cubic-bezier(.18,.89,.32,1.28);
+    border: 4px solid black;
+    background-color: var(--border-background);
+}

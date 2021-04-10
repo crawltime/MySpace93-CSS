@@ -12,7 +12,7 @@
     --other-text-color: #33cc9a;
     --header-color: #0f0f0f;
     --small-header-color: #222;
-    --shortRight-color: #247524;
+    --shortRight-color: #56ffc0;
     --image-background: #404040;
 }
 
@@ -34,7 +34,7 @@
     }
 
     to {
-        max-height: calc(100% - 100px );
+        max-height: calc(100% - 200px );
         max-width: 100%;
     }
 
@@ -252,6 +252,10 @@ audio {
     background-color: var(--image-background);
 }
 
+.songName a {
+    filter: invert(70%)
+}
+
 /* IDs */
 #name {
     padding-top: 1px;
@@ -359,9 +363,9 @@ audio {
 }
 
 #imgPreview img {
-    max-height: calc(100% - 100px );
+    max-height: calc(100% - 200px );
     max-width: 100%;
-    animation: preview_popup .7s cubic-bezier(.18,.89,.32,1.28);
+    animation: preview_popup .7s cubic-bezier(.24,-0.59,.51,1.91);
     border: 4px solid black;
     background-color: var(--border-background);
 }

@@ -11,7 +11,7 @@
     --link-transition: color .25s ease;
     --other-text-color: #33cc9a;
     --header-color: #0f0f0f;
-    --small-header-color: #222;
+    --small-header-color: #222222f2;
     --shortRight-color: #56ffc0;
     --image-background: #404040;
 }
@@ -61,6 +61,23 @@
     }
 }
 
+@keyframes ColourBack {
+    0% {
+        background-color: #1b1b1b;
+    }
+    25% {
+        background-color: #1d1d1d;
+    }
+    50% {
+        background-color: #2b2b2b;
+    }
+    75% {
+        background-color: #1d1d1d;
+    }
+    100% {
+        background-color: #1b1b1b;
+    }
+}
 
 /* Root */
 * {
@@ -87,12 +104,17 @@ img:hover {
 }
 
 body {
+    animation: ColourBack 8s ease-in-out infinite;
     background-image: var(--background-image);
     background-color: var(--background-color);
 }
 
 audio {
     filter: none;
+}
+
+p {
+    color: var(--text-color);
 }
 
 /* Classes */
@@ -278,6 +300,18 @@ audio {
     filter: invert(70%)
 }
 
+.box, #top, .short {
+    box-shadow: 0px 5px 6px #151515;
+}
+
+.fwiends {
+    box-shadow: 0px 0px !important;
+}
+
+.comments {
+    box-shadow: 0px 0px !important;
+}
+
 /* IDs */
 #name {
     padding-top: 1px;
@@ -397,4 +431,8 @@ audio {
 
 #avatar {
     animation: JackInTheBox 1s;
+}
+
+#footer {
+    box-shadow: 0px 0px !important;
 }

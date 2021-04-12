@@ -272,7 +272,7 @@ p {
 .blurbs b {
     color: white;
     white-space: nowrap;
-    padding-right: calc(100% - 211px);
+    padding-right: calc(100% - 220px);
     background-color: var(--top-color);
     padding-left: 4px;
 }

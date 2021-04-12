@@ -92,6 +92,7 @@
 
 /* Root */
 * {
+    animation: FadeIn .5s ease;
     font-family: Consolas, Monospace, Arial;
 }
 
@@ -115,7 +116,7 @@ img:hover {
 }
 
 body {
-    animation: ColourBack 8s ease-in-out infinite, FadeIn .5s ease;
+    animation: ColourBack 8s ease-in-out infinite;
     background-image: var(--background-image);
     background-color: var(--background-color);
 }

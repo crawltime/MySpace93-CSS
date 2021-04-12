@@ -79,6 +79,17 @@
     }
 }
 
+@keyframes FadeIn {
+
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
+
 /* Root */
 * {
     font-family: Consolas, Monospace, Arial;
@@ -104,7 +115,7 @@ img:hover {
 }
 
 body {
-    animation: ColourBack 8s ease-in-out infinite;
+    animation: ColourBack 8s ease-in-out infinite, FadeIn .5s ease;
     background-image: var(--background-image);
     background-color: var(--background-color);
 }
@@ -314,6 +325,14 @@ p {
 
 .tableRight p {
     color: black;
+}
+
+.blogs b:after {
+    content: ":";
+}
+
+.blurbs h4, .blurbs b {
+    text-decoration: underline;
 }
 
 /* IDs */

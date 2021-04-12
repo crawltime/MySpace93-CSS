@@ -205,7 +205,7 @@ p {
 }
 
 .fwiendCount {
-    color: #00684b;
+    color: var(--text-color);
 }
 
 .extended.box > h3 {
@@ -353,6 +353,7 @@ p {
 }
 
 #header span {
+    text-decoration: 1px underline #393939;
     transition: var(--link-transition);
 }
 

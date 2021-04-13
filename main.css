@@ -92,7 +92,6 @@
 
 /* Root */
 * {
-    animation: FadeIn .5s ease;
     font-family: Consolas, Monospace, Arial;
 }
 
@@ -116,9 +115,9 @@ img:hover {
 }
 
 body {
-    animation: ColourBack 8s ease-in-out infinite;
     background-image: var(--background-image);
     background-color: var(--background-color);
+    animation: FadeIn .5s ease, ColourBack 8s ease-in-out infinite;
 }
 
 audio {
@@ -328,7 +327,7 @@ p {
     color: black;
 }
 
-.blogs b:after {
+.blurbs > .blogs > div > b:after {
     content: ":";
 }
 

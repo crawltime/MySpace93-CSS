@@ -461,3 +461,21 @@ p {
 #footer {
     box-shadow: 0px 0px !important;
 }
+
+/* Webkit only */	
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+    
+    .blurbs b {
+        padding-right: calc(100% - 225px);
+    }
+
+}
+
+/* Mozilla's Firefox*/
+@-moz-document url-prefix() {
+
+    .blurbs b {
+        padding-right: calc(100% - 220px);
+    }
+
+}

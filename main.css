@@ -272,7 +272,7 @@ p {
 .blurbs b {
     color: white;
     white-space: nowrap;
-    padding-right: calc(100% - 220px);
+    padding-right: calc(100% - 225px);
     background-color: var(--top-color);
     padding-left: 4px;
 }
@@ -460,15 +460,6 @@ p {
 
 #footer {
     box-shadow: 0px 0px !important;
-}
-
-/* Webkit only */	
-@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
-    
-    .blurbs b {
-        padding-right: calc(100% - 225px);
-    }
-
 }
 
 /* Mozilla's Firefox*/

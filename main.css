@@ -108,6 +108,7 @@ a:hover {
 img {
     transition: all .35s ease;
     image-rendering: auto;
+    transform: translateZ(0);
 }
 
 img:hover {

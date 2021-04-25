@@ -93,6 +93,8 @@
 /* Root */
 * {
     font-family: Consolas, Monospace, Arial;
+    scrollbar-color: var(--top-color) #171717;
+    scrollbar-width: thin;
 }
 
 /* Global elements */
@@ -133,6 +135,7 @@ button, #form input {
     border: var(--border-default);
     border-radius: 4px;
     transition: all .25s ease;
+    cursor: pointer;
 }
 
 button:hover, #form input:hover {
@@ -240,9 +243,9 @@ button:active, #form input:active {
 }
 
 .extended.box > h3:after {
-    content: "I won't ever leave my room, but I'm getting good at writing letters";
+    content: "viktor is in your extended ext4 partition";
     color: var(--link);
-    font-size: 17px;
+    font-size: 21px;
 }
 
 .extended.box {

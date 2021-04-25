@@ -108,7 +108,6 @@ a:hover {
 img {
     transition: all .35s ease;
     image-rendering: auto;
-    transform: translateZ(0);
 }
 
 img:hover {
@@ -127,6 +126,22 @@ audio {
 
 p {
     color: var(--text-color);
+}
+
+button, #form input {
+    background-image: linear-gradient(#3B866D, #373737);
+    border: var(--border-default);
+    border-radius: 4px;
+    transition: all .25s ease;
+}
+
+button:hover, #form input:hover {
+    filter: brightness(65%);
+}
+
+button:active, #form input:active {
+    background-image: linear-gradient(black, #3B866D);
+    border: 4px solid black;
 }
 
 /* Classes */
@@ -456,6 +471,10 @@ p {
 
 #avatar {
     animation: JackInTheBox 1s;
+}
+
+#avatar:hover, #imgPreview img {
+    box-shadow: 0px 0px 10px black;
 }
 
 #footer {

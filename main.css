@@ -90,6 +90,18 @@
 
 }
 
+@keyframes imgPreview-transition {
+
+    from {
+        background-color: rgba(0, 0, 0, 0)
+    }
+
+    to {
+        background-color: rgba(0, 0, 0, 0.6)
+    }
+
+}
+
 /* Root */
 * {
     font-family: Consolas, Monospace, Arial;
@@ -478,6 +490,10 @@ button:active, #form input:active {
     padding-right: 0;
     padding-left: 0;
     text-align: center;
+}
+
+#imgPreview {
+    animation: imgPreview-transition .25s ease;
 }
 
 #imgPreview img {

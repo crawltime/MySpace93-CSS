@@ -14,6 +14,7 @@
     --small-header-color: #222222f2;
     --shortRight-color: #56ffc0;
     --image-background: #404040;
+    --highlight-color: #185F47;
 }
 
 /* Special functions */
@@ -158,7 +159,7 @@ button:active, #form input:active {
     border: 4px solid black;
 }
 
-/* Other globals */
+/* Other/pseudo globals */
 ::-webkit-scrollbar {
     background-color: #171717;
 }
@@ -175,6 +176,12 @@ button:active, #form input:active {
 ::-webkit-scrollbar-thumb:active {
     background-color: #1b3a2f;
 }
+
+::selection {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
 /* Classes */
 .short {
     margin-top: -18px;

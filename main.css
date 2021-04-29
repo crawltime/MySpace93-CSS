@@ -124,13 +124,10 @@ img {
     image-rendering: auto;
 }
 
-img:hover {
-    filter: brightness(65%)
-}
-
 body {
     background-image: var(--background-image);
     background-color: var(--background-color);
+    background-attachment: fixed;
     animation: FadeIn .5s ease, ColourBack 8s ease-in-out infinite;
 }
 
@@ -513,6 +510,10 @@ button:active, #form input:active {
 
 #avatar {
     animation: JackInTheBox 1s;
+}
+
+#avatar:hover, #imgPreview img:hover, .tableLeft > a > img:hover, .fwiendFace img:hover {
+    filter: brightness(65%);
 }
 
 #avatar:hover, #imgPreview img {

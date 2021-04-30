@@ -21,7 +21,7 @@
 @media (orientation: landscape) {
 
     .topLeft {
-        top: 53px;
+        top: -465px;
         position: sticky;
     }
 
@@ -230,12 +230,11 @@ button:active, #form input:active {
     padding: 0;
 }
 
-.url b {
+.url.box > div:first-of-type {
     color: white;
     background-color: var(--top-color);
     padding-left: 6px;
     padding-bottom: 2px;
-    padding-right: 100%;
     white-space: nowrap;
 }
 
@@ -274,10 +273,10 @@ button:active, #form input:active {
     font-size: 0px;
 }
 
-.extended.box > h3:after {
+.extended.box > h3::after {
     content: "viktor is in your extended ext4 partition";
     color: var(--link);
-    font-size: 21px;
+    font-size: 19px;
 }
 
 .extended.box {
@@ -306,6 +305,16 @@ button:active, #form input:active {
     color: var(--other-text-color);
 }
 
+.songName::before {
+    height: 385px;
+    display: block;
+    background-size: contain;
+    background-image: url("https://i.imgur.com/i9VrKsD.jpg");
+    content: "";
+    filter: sepia(30%) hue-rotate(169deg);
+    background-repeat: no-repeat;
+}
+
 .tableLeft {
     background-color: #489d6d9e;
     padding: 0;
@@ -317,14 +326,6 @@ button:active, #form input:active {
 
 .tableRight {
     background-color: #245338;
-}
-
-.blurbs b {
-    color: white;
-    white-space: nowrap;
-    padding-right: calc(100% - 225px);
-    background-color: var(--top-color);
-    padding-left: 4px;
 }
 
 .blog {
@@ -380,6 +381,13 @@ button:active, #form input:active {
 
 .blurbs > .blogs > div > b:after {
     content: ":";
+}
+
+.blurbs > .blogs > div:first-of-type {
+    color: white;
+    background-color: var(--top-color);
+    padding-left: 4px;
+    white-space: nowrap;
 }
 
 .blurbs h4, .blurbs b {
@@ -526,6 +534,10 @@ button:active, #form input:active {
 
 /* Mozilla's Firefox*/
 @-moz-document url-prefix() {
+
+    .topLeft {
+        top: -482px;
+    }
 
     .blurbs b {
         padding-right: calc(100% - 220px);

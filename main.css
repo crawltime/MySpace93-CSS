@@ -18,6 +18,26 @@
 }
 
 /* Special functions */
+@keyframes slidecolor {
+
+    25% {
+        filter: sepia(30%) hue-rotate(169deg);
+    }
+
+    50% {
+        filter: sepia(11%) hue-rotate(40deg);
+    }
+
+    75% {
+        filter: sepia(88%) hue-rotate(208deg);
+    }
+
+    100% {
+        filter: sepia(30%) hue-rotate(169deg);
+    }
+
+}
+
 @media (orientation: landscape) {
 
     .topLeft {
@@ -312,6 +332,7 @@ button:active, #form input:active {
     background-image: url("https://i.imgur.com/i9VrKsD.jpg");
     content: "";
     filter: sepia(30%) hue-rotate(169deg);
+    animation: slidecolor 10s infinite;
     background-repeat: no-repeat;
 }
 

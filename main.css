@@ -163,7 +163,7 @@ button, #form input {
     background-image: linear-gradient(#3B866D, #373737);
     border: var(--border-default);
     border-radius: 4px;
-    transition: all .25s ease;
+    transition: all .1s ease;
     cursor: pointer;
 }
 
@@ -558,10 +558,6 @@ button:active, #form input:active {
 
     .topLeft {
         top: -482px;
-    }
-
-    .blurbs b {
-        padding-right: calc(100% - 220px);
     }
 
 }

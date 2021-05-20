@@ -152,7 +152,7 @@ body {
 }
 
 audio {
-    filter: none;
+    filter: hue-rotate(320deg);
 }
 
 p {
@@ -380,7 +380,7 @@ button:active, #form input:active {
     background-color: var(--image-background);
 }
 
-.songName a {
+.songName img {
     filter: invert(70%)
 }
 
@@ -467,6 +467,7 @@ button:active, #form input:active {
 #hSub {
     background-color: var(--small-header-color) !important;
     border-bottom: var(--border-default) !important;
+    cursor: default !important;
 }
 
 #add {

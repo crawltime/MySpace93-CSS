@@ -21,19 +21,19 @@
 @keyframes slidecolor {
 
     25% {
-        filter: invert(83.5%) hue-rotate(182deg);
+        filter: invert(83%) hue-rotate(182deg);
     }
 
     50% {
-        filter: invert(83.5%) hue-rotate(0deg);
+        filter: invert(83%) hue-rotate(0deg);
     }
 
     75% {
-        filter: invert(83.5%) hue-rotate(360deg);
+        filter: invert(83%) hue-rotate(360deg);
     }
 
     100% {
-        filter: invert(83.5%) hue-rotate(182deg);
+        filter: invert(83%) hue-rotate(182deg);
     }
 
 }
@@ -331,7 +331,7 @@ button:active, #form input:active {
     background-size: contain;
     background-image: url("https://i.imgur.com/iFPzB9a.jpg");
     content: "";
-    filter: invert(83.5%) hue-rotate(182deg);
+    filter: invert(83%) hue-rotate(182deg);
     animation: slidecolor 15s ease infinite;
     background-repeat: no-repeat;
 }

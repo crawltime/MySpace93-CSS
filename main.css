@@ -15,6 +15,7 @@
     --shortRight-color: #56ffc0;
     --image-background: #404040;
     --highlight-color: #185F47;
+    --action-transition: all .2s ease
 }
 
 /* Special functions */
@@ -471,22 +472,22 @@ button:active, #form input:active {
 }
 
 #add {
-    transition: all .35s ease;
+    transition: var(--action-transition);
     background-image: url("https://i.imgur.com/sANviq7.png");
 }
 
 #report {
-    transition: all .35s ease;
+    transition: var(--action-transition);
     background-image: url("https://i.imgur.com/ord1pEH.png");
 }
 
 #sMsg {
-    transition: all .35s ease;
+    transition: var(--action-transition);
     background-image: url("https://i.imgur.com/x6soEtU.png");
 }
 
 #block {
-    transition: all .35s ease;
+    transition: var(--action-transition);
     background-image: url("https://i.imgur.com/sQqACw4.png");
 }
 

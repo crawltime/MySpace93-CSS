@@ -83,24 +83,6 @@
     }
 }
 
-@keyframes ColourBack {
-    0% {
-        background-color: #1b1b1b;
-    }
-    25% {
-        background-color: #1d1d1d;
-    }
-    50% {
-        background-color: #2b2b2b;
-    }
-    75% {
-        background-color: #1d1d1d;
-    }
-    100% {
-        background-color: #1b1b1b;
-    }
-}
-
 @keyframes FadeIn {
 
     from {
@@ -149,7 +131,7 @@ body {
     background-image: var(--background-image);
     background-color: var(--background-color);
     background-attachment: fixed;
-    animation: FadeIn .5s ease, ColourBack 8s ease-in-out infinite;
+    animation: FadeIn .5s ease;
 }
 
 audio {
